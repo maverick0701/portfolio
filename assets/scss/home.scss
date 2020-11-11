@@ -5,17 +5,116 @@
     width: 25%;
     border:2px solid black;
     vertical-align: top;
+    position: fixed;
+    left:2%;
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top:20px;
+        border: 2px solid black;
+        height: 1000px;
+        position: relative;
+
+      
+    #imageHead
+    {
+        width: 80%;
+        height: 250px;
+        border: 2px solid black;
+        position: sticky;
+        left:4%;
+        opacity: 5;
+        #imageBox
+        {
+            height:42%;
+            width: 37%;
+            position: absolute;
+            left:30%;
+            top:10%;
+            border-radius: 100%;
+            border: 2px solid black;
+            opacity: 4;
+        }
+        #name
+        {
+            width: 100%;
+            height: 80px;
+            position: absolute;
+            top:68%;
+            opacity: 4;
+        }
+
+    }
+    #skill
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 300px;
+        border: 2px solid black;
+        position: relative;
+        left:7%;
+        margin-top: 20px;
+        padding: 0%;
+            .header
+            {
+                width: 100%;
+                height: auto;
+                border: 1px solid black;
+            }
+            .skillcon{
+                width: 100%;
+                height: 40px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: row;
+                .skill-holder{
+                    height:30px;
+                    width: 200px;
+                    background-color:grey;
+                    border-top-right-radius:20px;
+                    border-bottom-right-radius:20px;
+                    border-top-left-radius:20px;
+                    border-bottom-left-radius:20px;
+                    margin-bottom:50px;
+                    position: absolute;
+                    top: 2%;
+                
+                }
+                
+                .skill-name{
+                    border-top-left-radius:20px;
+                    border-bottom-left-radius:20px;
+                    text-align:center;
+                    text-transform:capitalize;
+                    color:white;
+                    width:80%;
+                    height:inherit;
+                    background-color:darkblue;
+                    padding-top:5px;
+                    box-sizing:border-box;
+                    box-shadow: 0px 0px 6px 4px #e4e4e4;
+                    position: absolute;
+                    top:-5%;
+                }
+            }
+        
+    }
+}
 }
 
 #mainSection
 {
     margin-left: 50px;
     display: inline-block;
-    height: 100vh;
+    height: 110vh;
     width:70%;
     border:2px solid black;
     padding-top:40px;
     box-sizing: border-box;
+    position: absolute;
+    left:25%;
     // background-color: black;
     #carousel
     {
@@ -75,3 +174,97 @@
   }
 
   
+$size: 60px; // 圆环宽高
+$borderWidth: 5px; // 轨道宽度
+$fontColor: #949494; // 文字颜色
+
+@-webkit-keyframes toggle {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: -1;
+  }
+}
+
+@keyframes toggle {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity:-1;
+  }
+}
+
+@mixin positioning($pos: absolute) {
+  position: $pos;
+  top: 0;
+  left: 0;
+  height: $size;
+  width: $size;
+}
+
+.progress-ring {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: $size;
+  width: $size;
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $size;
+    width: $size;
+    /* 圆环宽高，可自定义 */
+    border: $borderWidth solid transparent;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .progress-left, .progress-right, .progress-cover {
+    clip: rect(0 ($size / 2) $size 0); /* [0 | <width/2> | <width> | 0] */
+  }
+  .progress-right {
+    opacity: 7;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .progress-text {
+    border: none;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-size: $size/3;
+    color: $fontColor;
+    
+    line-height: $size;
+  }
+  .progress-percent {
+    font-size: .30em;
+  }
+}
+
+#position
+{
+    position: absolute;
+    left:3%;
+    top:40%;
+}
+
+#position2
+{
+    position: absolute;
+    left:11%;
+    top:40%;
+}
+
+#position3
+{
+    position: absolute;
+    left:19%;
+    top:40%;
+}
