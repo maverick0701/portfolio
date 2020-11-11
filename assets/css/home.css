@@ -9,7 +9,7 @@
   margin-left: 50px;
   display: inline-block;
   height: 100vh;
-  width: 60%;
+  width: 70%;
   border: 2px solid black;
   padding-top: 40px;
   box-sizing: border-box; }
@@ -18,3 +18,38 @@
     height: 300px;
     width: 90%;
     border: 2px solid black; }
+
+#homeCard {
+  display: flex;
+  margin-top: 20px; }
+  #homeCard div {
+    width: 350px;
+    border: 2px solid black;
+    height: 270px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column; }
+    #homeCard div #cardHeader {
+      height: 40px;
+      width: 90%; }
+    #homeCard div #cardFooter {
+      height: 290px;
+      width: 90%; }
+  #homeCard .first {
+    display: none; }
+
+#mema {
+  margin-top: 22px; }
+
+#mema span::before {
+  content: '';
+  color: #aa3939;
+  animation: profile 5s infinite; }
+
+@keyframes profile {
+  0% {
+    content: 'a upcoming guitarist'; }
+  50% {
+    content: 'a web magician'; }
+  100% {
+    content: 'a tech geek'; } }
