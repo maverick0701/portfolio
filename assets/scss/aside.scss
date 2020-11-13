@@ -1,0 +1,168 @@
+body
+{
+    position: absolute;
+}
+#asideSection
+{
+  // background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+
+    color: #e4e4e4;
+    display: inline-block;
+    height: 100vh;
+    width: 25%;
+    // border:2px solid black;
+    vertical-align: top;
+    position: absolute;
+    left:6%;
+    // background: #20202a;
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top:20px;
+        // border: 2px solid black;
+        height: 1000px;
+        position: sticky;
+        // background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+
+      
+    #imageHead
+    {
+        width: 80%;
+        height: 250px;
+        position: sticky;
+        left:4%;
+        opacity: 0.5;
+        // background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+        box-shadow: 0 1px 4px 0 rgba(15,15,20,.1);
+        #imageBox
+        {
+            height:42%;
+            width: 37%;
+            position: absolute;
+            left:30%;
+            top:10%;
+            border-radius: 100%;
+            // background-color: black;
+            opacity: 4;
+        }
+        #name
+        {
+            width: 100%;
+            height: 80px;
+            position: absolute;
+            top:68%;
+            opacity: 4;
+
+        }
+
+    }
+    .skill
+    {
+     
+      border-top: 2px solid white;
+        width: 80%;
+        height: 300px;
+        // border: 2px solid black;
+        position: relative;
+        left:0%;        
+          }
+    .skill2
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 150px;
+        // border: 2px solid black;
+        border-top: 2px solid white;
+        position: relative;
+        left:0%;
+        margin-top: 0px;
+        
+        padding: 2%;
+        text-align: left;
+        color: grey;
+        #text
+        {
+          font-size: large;
+        }
+    }
+    .footer
+    {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        width: 80%;
+        position: relative;
+        left: 0%;
+        top:0.7%;
+    }
+}
+}
+.animated-progress {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+
+.animated-progress span {
+    height: 30px;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+  
+  .progress-blue span {
+    background-color: #ffc007;
+  }
+  .progress-green span {
+    background-color:#ffc007;
+  }
+  .progress-purple span {
+    background-color:#ffc007;
+  }
+  .progress-red span {
+    background-color:#ffc007;
+  }
+  
+
+  #sname1{
+      position: absolute;
+      top:29%;
+      left:5%;
+  }
+  #sname2{
+    position: absolute;
+    top:34%;
+    left:5%;
+}
+#sname3{
+  position: absolute;
+  top:38.5%;
+  left:5%;
+}
+#sname4{
+  position: absolute;
+  top:43.5%;
+  left:5%;
+}
+#sname5{
+  position: absolute;
+  top:48%;
+  left:5%;
+}
+        
+#identity
+{
+  position: absolute;
+  top:15%;
+  left:9%;
+}
