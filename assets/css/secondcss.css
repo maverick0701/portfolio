@@ -1,7 +1,7 @@
 #aboutImage {
   position: absolute;
-  left: 10%;
-  top: 15%; }
+  left: 30%;
+  top: 32%; }
 
 #head span::before {
   content: '';
@@ -11,14 +11,20 @@
 
 @keyframes profile {
   0% {
-    content: 'a web developer'; }
+    content: 'Team player'; }
+  25% {
+    content: 'Team player'; }
   50% {
-    content: 'a tech enthusiast'; }
+    content: 'Web Developer'; }
   100% {
-    content: 'a team player'; } }
+    content: 'Tech enthusiast'; } }
 
 #myStory {
   width: 40%;
   position: absolute;
   left: 40%;
-  top: 20%; }
+  top: 10%;
+  text-align: left; }
+  #myStory #storyHead {
+    text-align: center;
+    font-size: 30px; }
