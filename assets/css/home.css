@@ -1,8 +1,7 @@
 @charset "UTF-8";
 body {
   color: white;
-  scroll-behavior: none;
-  overflow: hidden; }
+  scroll-behavior: none; }
 
 @-webkit-keyframes toggle {
   0% {
@@ -200,3 +199,14 @@ body {
 #quote {
   position: absolute;
   top: 220px; }
+
+#text2 {
+  position: absolute;
+  left: 110%;
+  top: 500px;
+  color: grey;
+  width: 200px;
+  font-size: 10px; }
+
+#text2:hover {
+  color: white; }

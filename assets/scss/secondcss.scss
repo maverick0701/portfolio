@@ -1,0 +1,26 @@
+#aboutImage
+{
+    position: absolute;
+    left:10%;
+    top: 15%;
+}
+
+#head span::before{
+    content: '';
+    color: #aa3939;
+    transition: ease-in-out;
+    animation: profile 5s infinite;
+  }
+  @keyframes profile {
+    0% { content: 'a web developer'}
+    50% { content: 'a tech enthusiast'}
+    100% { content: 'a team player'}
+  }
+
+  #myStory
+  {
+      width: 40%;
+      position: absolute;
+      left: 40%;
+      top: 20%;
+  }

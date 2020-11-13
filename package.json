@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/maverick0701/portfolio#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "ejs": "^3.1.5",
     "express-ejs-layouts": "^2.5.0"
   }

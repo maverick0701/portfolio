@@ -59,11 +59,17 @@ body {
     #asideSection div .footer {
       width: 100%;
       height: auto;
-      border: 2px solid black;
+      border-top: 2px solid white;
       width: 80%;
       position: relative;
       left: 0%;
-      top: 0.7%; }
+      top: 0.7%;
+      display: flex;
+      flex-direction: row; }
+      #asideSection div .footer span {
+        margin-left: 40px; }
+        #asideSection div .footer span i {
+          font-size: 25px; }
 
 .animated-progress {
   width: 90px;
