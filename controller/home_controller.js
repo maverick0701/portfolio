@@ -4,22 +4,22 @@ const mail=require('../mailer/mailer');
 
 module.exports.home=async function(req,res)
 {
-    return res.render('home.ejs')
+    return res.render('_firstpage.ejs')
 }
 
 module.exports.mystory=function(req,res)
 {
-    return res.render('secondPage.ejs');
+    return res.render('_secondpage.ejs');
 }
 
 module.exports.contact=function(req,res)
 {
-    return res.render('FourthPage.ejs')
+    return res.render('_fourthpage.ejs')
 }
 
 module.exports.give=function(req,res)
 {
-    return res.render('third.ejs');
+    return res.render('_third.ejs');
 }
 
 module.exports.touch=function(req,res)
@@ -44,5 +44,5 @@ module.exports.touch=function(req,res)
 
 module.exports.fifth=function(req,res)
 {
-    return res.render('fifthpage.ejs');
+    return res.render('_fifthpage.ejs');
 }
