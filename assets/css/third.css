@@ -2,8 +2,8 @@
   /* The image used */
   background-image: url("mun.jpeg");
   /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
   /* Full height */
   height: 100vh;
   /* Center and scale the image nicely */
@@ -12,14 +12,36 @@
   background-size: cover; }
 
 #contact {
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/opacity/see-through */
-  color: white;
+  background-color: white;
+  color: black;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  height: 600px;
+  width: 37%;
+  border-radius: 30px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column; }
+
+#git h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px #aaa;
+  margin-bottom: 10px; }
+
+#con {
+  font-family: 'Typewolf',serif; }
+  #con input, #con textarea, #con button {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 30px; }
+  #con #but {
+    background-color: inherit;
+    border: none;
+    width: 20%; }

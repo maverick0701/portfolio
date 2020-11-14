@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/css/four.css">
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLH92FOUGp0dmYbiqRfnHDLNfia3BX9kY&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8XLV8Jd1fdrosLsRw2LqHBOU8598ViU8&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
 <video autoplay loop muted>
@@ -13,7 +13,7 @@
         <div id='map'></div>
         <div class="card-body">
           <h5 class="card-title">Address and Contacts</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">7426 SECTOR B Pocket 10,<br>Near Bhatnagar International School<br>Vasant Kung 110070</p>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Phone: 9712547211</li>
@@ -25,7 +25,7 @@
           </li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
+          <a href="https://www.google.com/maps/place/New+Delhi,+Delhi+110070/@28.5276918,77.1117804,13z/data=!3m1!4b1!4m5!3m4!1s0x390d1e873740663b:0x9e61511b2160d9b4!8m2!3d28.5124389!4d77.1370115" class="card-link">New Delhi</a>
           <a href="#" class="card-link">Another link</a>
         </div>
       </div>
@@ -35,8 +35,12 @@
 
                 function initMap() {
             map = new google.maps.Map(document.getElementById("map"), {
-                center: { lat: -34.397, lng: 150.644 },
-                zoom: 8,
+                center: { lat:28.5293, lng:77.1484},
+                zoom:11,
             });
+            var marker=new google.maps.Marker({
+              position: {lat:28.5293, lng:77.1484},
+              map:map
+            })
             }
       </script>
