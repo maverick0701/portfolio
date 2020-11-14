@@ -41,3 +41,8 @@ module.exports.touch=function(req,res)
     })
     
 }
+
+module.exports.fifth=function(req,res)
+{
+    return res.render('fifthpage.ejs');
+}
