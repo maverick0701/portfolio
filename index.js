@@ -2,7 +2,8 @@ const express=require('express');
 const { request } = require('express');
 const app=express();
 const port=8030;
-const nodeSassMiddleware = require('node-sass-middleware');
+ 
+const db=require('./config/mongoose');
 const sassMiddleware=require('node-sass-middleware');
 const expressLayouts=require('express-ejs-layouts');
 app.use(express.urlencoded());
