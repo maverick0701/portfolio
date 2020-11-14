@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/css/four.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLH92FOUGp0dmYbiqRfnHDLNfia3BX9kY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+<video autoplay loop muted>
+    <source src='/videos/sea.mp4' type="video/mp4">
+</video>
+
+
+    <div class="card" style="width: 18rem;" id='findMe'>
+        <div id='map'></div>
+        <div class="card-body">
+          <h5 class="card-title">Address and Contacts</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Phone: 9712547211</li>
+          <li class="list-group-item">madhavanandcp070@gmail.com</li>
+          <li class="list-group-item">
+            <a href="http://linkedin.com/in/madhav-cp-anand"><span><i class="fab fa-linkedin-in"></i></span></a>
+            <a href="https://www.instagram.com/officialmadhavanand/"><span><i class="fab fa-instagram"></i></span></a>
+            <a href="https://github.com/maverick0701"><span><i class="fab fa-github"></i> </span></a>
+          </li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <script>
+          let map;
+
+                function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8,
+            });
+            }
+      </script>

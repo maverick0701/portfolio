@@ -1,3 +1,5 @@
+//apiKey=AIzaSyDLH92FOUGp0dmYbiqRfnHDLNfia3BX9kY
+
 let div=$('#homeCard >div');
 let currentIndex=0;
 
