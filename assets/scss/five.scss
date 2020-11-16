@@ -129,6 +129,17 @@
         
     }
 }
+@media only screen and (max-width:290px)
+{
+    #container section:first-of-type {
+        padding-top: 0vh;
+    }
+    #edu #con .ed #head {
+        text-align: right;
+        font-size: 20px;
+    }
+    
+}
 @media only screen and (min-width:756px)
 {
     #edu

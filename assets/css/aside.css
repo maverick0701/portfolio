@@ -131,3 +131,27 @@ body {
   position: absolute;
   top: 15%;
   left: 9%; }
+
+@media only screen and (max-width: 600px) {
+  #asideSection {
+    display: none; } }
+
+@media only screen and (min-width: 600px) {
+  #asideSection div #imageHead #imageBox {
+    height: 42%;
+    width: 37%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    border-radius: 100%;
+    opacity: 4; } }
+
+@media only screen and (min-width: 1024px) {
+  #asideSection div #imageHead #imageBox {
+    height: 42%;
+    width: 37%;
+    position: absolute;
+    left: 28%;
+    top: 10%;
+    border-radius: 100%;
+    opacity: 4; } }

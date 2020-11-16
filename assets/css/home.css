@@ -2,13 +2,6 @@ body {
   color: white;
   scroll-behavior: none; }
 
-.transition-fade {
-  transition: 0.4s;
-  opacity: 1; }
-
-html.is-animating .transition-fade {
-  opacity: 0; }
-
 body {
   font-family: 'Architects Daughter', sans-serif; }
 
@@ -154,3 +147,127 @@ body {
 
 #text2:hover {
   color: white; }
+
+@media only screen and (max-width: 600px) {
+  #headerBox {
+    top: 2%;
+    left: 38%;
+    width: 60%; }
+  #container section:first-of-type {
+    padding-top: 0vh; }
+  #quote {
+    position: absolute;
+    top: 549px;
+    left: -93px; }
+  .word {
+    position: absolute;
+    font-size: 1.5rem;
+    left: -70px;
+    overflow-wrap: break-word; }
+  #meImage {
+    position: absolute;
+    left: 5%;
+    top: 12%; }
+  #identity {
+    position: absolute;
+    top: 7%;
+    left: 29%; }
+  #text2 {
+    display: none; } }
+
+@media only screen and (max-width: 425px) {
+  .hamburger {
+    top: 10px;
+    left: 7px; }
+  #meImage {
+    left: -7%; } }
+
+@media only screen and (max-width: 337px) {
+  .hamburger {
+    top: 10px;
+    left: 7px; }
+  #meImage {
+    left: -20%;
+    top: 14%; }
+  #quote {
+    display: none; }
+  #identity {
+    position: absolute;
+    top: 49%;
+    left: 24%; }
+  #headerBox {
+    top: 5%; } }
+
+@media only screen and (max-width: 300px) {
+  #meImage {
+    left: -32%; } }
+
+@media only screen and (min-width: 600px) {
+  #quote {
+    position: absolute;
+    top: 540px;
+    left: 158px; }
+  #meImage {
+    position: absolute;
+    left: 37%;
+    top: 10%; }
+  #headerBox {
+    position: absolute;
+    left: 11%;
+    top: 1%;
+    width: 500px; }
+  #text2 {
+    display: none; }
+  .word {
+    font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1003px) {
+  #meImage {
+    position: absolute;
+    left: 60%;
+    top: 10%; }
+  #quote {
+    position: absolute;
+    top: 290px;
+    left: 222px; }
+  #text2 {
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 500px;
+    color: grey;
+    width: 200px;
+    font-size: 10px;
+    top: 556px; }
+  .word {
+    font-size: 2rem; }
+  #headerBox {
+    position: absolute;
+    left: 11%;
+    top: 1%;
+    width: 801px; } }
+
+@media only screen and (min-width: 800px) {
+  #quote {
+    left: 228px; } }
+
+@media only screen and (min-width: 1220px) {
+  #quote {
+    position: absolute;
+    top: 290px;
+    left: 312px; }
+  #text2 {
+    display: block;
+    position: absolute;
+    left: 105%;
+    font-size: 10px;
+    top: 556px; }
+  #headerBox {
+    position: absolute;
+    left: 22%;
+    top: 14%;
+    width: 700px; }
+  #quote {
+    position: absolute;
+    top: 160px;
+    left: 196px; } }
