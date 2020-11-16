@@ -17,103 +17,6 @@ body
   }
 
 
-  
-$size: 60px; // 圆环宽高
-$borderWidth: 5px; // 轨道宽度
-$fontColor: #949494; // 文字颜色
-
-@-webkit-keyframes toggle {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: -1;
-  }
-}
-
-@keyframes toggle {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity:-1;
-  }
-}
-
-@mixin positioning($pos: absolute) {
-  position: $pos;
-  top: 0;
-  left: 0;
-  height: $size;
-  width: $size;
-}
-
-.progress-ring {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: $size;
-  width: $size;
-  div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: $size;
-    width: $size;
-    /* 圆环宽高，可自定义 */
-    border: $borderWidth solid transparent;
-    border-radius: 50%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .progress-left, .progress-right, .progress-cover {
-    clip: rect(0 ($size / 2) $size 0); /* [0 | <width/2> | <width> | 0] */
-  }
-  .progress-right {
-    opacity: 7;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-  .progress-text {
-    border: none;
-    font-family: "Arial", sans-serif;
-    text-align: center;
-    font-size: $size/3;
-    color: $fontColor;
-    
-    line-height: $size;
-  }
-  .progress-percent {
-    font-size: .30em;
-  }
-}
-
-#position
-{
-    position: absolute;
-    left:3%;
-    top:40%;
-}
-
-#position2
-{
-    position: absolute;
-    left:11%;
-    top:40%;
-}
-
-#position3
-{
-    position: absolute;
-    left:19%;
-    top:40%;
-}
-
-
 $primary-color: #243040;
 
 body {
@@ -141,7 +44,7 @@ body {
 
 //prevents the scrolling when the menu is open
 #paper-window {
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	position: relative; 
 	overflow-x: hidden;
@@ -160,6 +63,7 @@ body {
 	pointer-events: auto;
 	position: relative;
 	z-index: 3;
+	height: 100vh;
     // background-image: linear-gradient(#1e1f28,#191a24);
     background-color: black;
 	box-shadow: 0 0 20px rgba(black, 0.7);
