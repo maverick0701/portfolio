@@ -15,7 +15,20 @@ const developmet={
     mapApiKey:'AIzaSyDLH92FOUGp0dmYbiqRfnHDLNfia3BX9kY'
 }
 const production={
-    name:'production'
+    name:'production',
+    asset_path:process.env.ASSETS_PATH,
+    db:'newProjPROD',
+    smtp:{
+        service:'gmail',
+        host:'smtp.gmail.com',
+        port:587,
+        secure:false,
+        auth:{
+            user:process.env.portGmailuser,
+            pass:process.env.portGmailpass
+        }
+    },
+    mapApiKey:process.env.mapApiKey
 }
 
 module.exports=developmet;

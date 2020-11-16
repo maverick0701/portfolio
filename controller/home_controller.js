@@ -1,4 +1,5 @@
 const User=require('../models/mongoose');
+
 const mail=require('../mailer/mailer');
 
 
@@ -19,14 +20,14 @@ module.exports.contact=function(req,res)
 
 module.exports.give=function(req,res)
 {
+    console.log(process.env.ASSETS_PATH,'4%^&*()&^%$#@#$%^&*()(*&^%$@#$%^&*()');
     return res.render('_third.ejs');
 }
 
 module.exports.touch=function(req,res)
 {
     console.log(req.body);
-    phno++;
-    User.create({
+    User.create({ 
         date:Date.now(),
         email:req.body.email,
         phone:req.body.phn,
