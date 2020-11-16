@@ -1,6 +1,6 @@
 const developmet={
     name:'development',
-    asset_path:'./assets',
+    asset_path:process.env.ASSETS_PATH,
     db:'newProj',
     smtp:{
         service:'gmail',
@@ -8,8 +8,8 @@ const developmet={
         port:587,
         secure:false,
         auth:{
-            user:'sagarsethumadhav.develop2019@gmail.com',
-            pass:'1234@abcd'
+            user:process.env.portGmailuser,
+            pass:process.env.portGmailpass
         }
     },
     mapApiKey:'AIzaSyDLH92FOUGp0dmYbiqRfnHDLNfia3BX9kY'
@@ -31,4 +31,4 @@ const production={
     mapApiKey:process.env.mapApiKey
 }
 
-module.exports=developmet;
+module.exports=eval(process.env.myEnv)=='undefined' ? devolopment:eval(process.env.myEnv);

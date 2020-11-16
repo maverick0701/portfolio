@@ -1,7 +1,7 @@
 const express=require('express');
 const { request } = require('express');
 const app=express();
-const port=8030;
+const port=8000;
  
 const db=require('./config/mongoose');
 const sassMiddleware=require('node-sass-middleware');

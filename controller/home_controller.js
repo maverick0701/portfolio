@@ -20,7 +20,7 @@ module.exports.contact=function(req,res)
 
 module.exports.give=function(req,res)
 {
-    console.log(process.env.ASSETS_PATH,'4%^&*()&^%$#@#$%^&*()(*&^%$@#$%^&*()');
+    
     return res.render('_third.ejs');
 }
 
