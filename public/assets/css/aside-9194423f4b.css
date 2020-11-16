@@ -1,0 +1,157 @@
+body {
+  position: absolute; }
+
+#asideSection {
+  color: #e4e4e4;
+  display: inline-block;
+  height: 100vh;
+  width: 25%;
+  vertical-align: top;
+  position: absolute;
+  left: 6%; }
+  #asideSection div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 1000px;
+    position: sticky; }
+    #asideSection div #imageHead {
+      width: 80%;
+      height: 250px;
+      position: sticky;
+      left: 4%;
+      opacity: 0.5;
+      box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1); }
+      #asideSection div #imageHead #imageBox {
+        height: 42%;
+        width: 37%;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+        border-radius: 100%;
+        opacity: 4; }
+      #asideSection div #imageHead #name {
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 68%;
+        opacity: 4; }
+    #asideSection div .skill {
+      border-top: 2px solid white;
+      width: 80%;
+      height: 300px;
+      position: relative;
+      left: 0%; }
+    #asideSection div .skill2 {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 150px;
+      border-top: 2px solid white;
+      position: relative;
+      left: 0%;
+      margin-top: 0px;
+      padding: 2%;
+      text-align: left;
+      color: grey; }
+      #asideSection div .skill2 #text {
+        font-size: large; }
+    #asideSection div .footer {
+      width: 100%;
+      height: auto;
+      border-top: 2px solid white;
+      width: 80%;
+      position: relative;
+      left: 0%;
+      top: 0.7%;
+      display: flex;
+      flex-direction: row; }
+      #asideSection div .footer span {
+        margin-left: 40px; }
+        #asideSection div .footer span i {
+          font-size: 25px; }
+
+.animated-progress {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  border: 1px solid #bd7171;
+  overflow: hidden;
+  position: relative; }
+
+.animated-progress span {
+  height: 30px;
+  display: block;
+  width: 0;
+  color: #fffbfb;
+  line-height: 30px;
+  position: absolute;
+  text-align: end;
+  padding-right: 5px; }
+
+.progress-blue span {
+  background-color: #ffc007; }
+
+.progress-green span {
+  background-color: #ffc007; }
+
+.progress-purple span {
+  background-color: #ffc007; }
+
+.progress-red span {
+  background-color: #ffc007; }
+
+#sname1 {
+  position: absolute;
+  top: 29%;
+  left: 5%; }
+
+#sname2 {
+  position: absolute;
+  top: 34%;
+  left: 5%; }
+
+#sname3 {
+  position: absolute;
+  top: 38.5%;
+  left: 5%; }
+
+#sname4 {
+  position: absolute;
+  top: 43.5%;
+  left: 5%; }
+
+#sname5 {
+  position: absolute;
+  top: 48%;
+  left: 5%; }
+
+#identity {
+  position: absolute;
+  top: 15%;
+  left: 9%; }
+
+@media only screen and (max-width: 600px) {
+  #asideSection {
+    display: none; } }
+
+@media only screen and (min-width: 600px) {
+  #asideSection div #imageHead #imageBox {
+    height: 42%;
+    width: 37%;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    border-radius: 100%;
+    opacity: 4; } }
+
+@media only screen and (min-width: 1024px) {
+  #asideSection div #imageHead #imageBox {
+    height: 42%;
+    width: 37%;
+    position: absolute;
+    left: 28%;
+    top: 10%;
+    border-radius: 100%;
+    opacity: 4; } }

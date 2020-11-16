@@ -1,0 +1,53 @@
+#findMe {
+  background-color: white;
+  border-radius: 30px;
+  position: fixed;
+  left: 40%;
+  top: 10%;
+  z-index: 3;
+  color: black; }
+  #findMe .list-group-item a {
+    margin-left: 20px; }
+
+#map {
+  height: 100px; }
+
+@media only screen and (max-width: 700px) {
+  #findMe {
+    background-color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 31%;
+    top: 10%;
+    z-index: 3;
+    color: black; } }
+
+@media only screen and (max-width: 500px) {
+  #findMe {
+    background-color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 12%;
+    top: 10%;
+    z-index: 3;
+    color: black; } }
+
+@media only screen and (max-width: 348px) {
+  #findMe {
+    background-color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 6%;
+    top: 10%;
+    z-index: 3;
+    color: black; } }
+
+@media only screen and (max-width: 300px) {
+  #findMe {
+    background-color: white;
+    border-radius: 30px;
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    z-index: 3;
+    color: black; } }

@@ -2,7 +2,7 @@ const express=require('express');
 const { request } = require('express');
 const app=express();
 const port=8000;
-
+require('./config/view-helpers')(app);
 const db=require('./config/mongoose');
 const sassMiddleware=require('node-sass-middleware');
 const expressLayouts=require('express-ejs-layouts');
