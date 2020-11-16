@@ -1,5 +1,5 @@
 const User=require('../models/mongoose');
-
+const env=require('../config/environment')
 const mail=require('../mailer/mailer');
 
 
@@ -15,7 +15,10 @@ module.exports.mystory=function(req,res)
 
 module.exports.contact=function(req,res)
 {
-    return res.render('_fourthpage.ejs')
+    return res.render('_fourthpage.ejs',
+    {
+        env:env.mapApiKey
+    })
 }
 
 module.exports.give=function(req,res)
