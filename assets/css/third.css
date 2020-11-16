@@ -45,3 +45,15 @@
     background-color: inherit;
     border: none;
     width: 20%; }
+
+@media only screen and (max-width: 800px) {
+  #contact {
+    width: 75%; } }
+
+@media only screen and (max-width: 400px) {
+  #contact {
+    width: 95%; } }
+
+@media only screen and (max-width: 1200px) {
+  #contact {
+    width: 60%; } }
