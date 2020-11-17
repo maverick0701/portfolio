@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const env=require('./environment');
-mongoose.connect(`mongodb+srv://maverick:amanis3937@cluster0.s0lia.mongodb.net/${env.db}?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb+srv://maverick:${env.dbpass}@cluster0.s0lia.mongodb.net/${env.db}?retryWrites=true&w=majority`);
 
 const db=mongoose.connection;
 

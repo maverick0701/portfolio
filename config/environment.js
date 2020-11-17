@@ -25,7 +25,8 @@ const developmet={
     morgan:{
         mode:'dev',
         options:{stream:accessLogStream}
-    }
+    },
+    dbpass:process.env.dbpass
 }
 const production={
     name:'production',
@@ -45,7 +46,8 @@ const production={
     morgan:{
         mode:'combined',
         options:{stream:accessLogStream}
-    }
+    },
+    dbpass:process.env.dbpass
 }
 
 module.exports=eval(process.env.myEnv)=='undefined' ? devolopment:eval(process.env.myEnv);

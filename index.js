@@ -9,7 +9,7 @@ const expressLayouts=require('express-ejs-layouts');
 const env=require('./config/environment');
 const logger=require('morgan');
 const path=require('path');
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended:false}));
 
 
 if(env.name=='development'){

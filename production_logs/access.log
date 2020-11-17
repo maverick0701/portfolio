@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ::1 - - [16/Nov/2020:15:55:27 +0000] "GET /contact HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
 ::1 - - [16/Nov/2020:15:55:37 +0000] "GET /get HTTP/1.1" 304 - "http://localhost:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
 ::1 - - [16/Nov/2020:17:13:47 +0000] "GET /get HTTP/1.1" 200 5474 "http://localhost:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
@@ -158,3 +159,12 @@
 ::ffff:103.208.70.71 - - [17/Nov/2020:12:26:48 +0000] "GET / HTTP/1.1" 304 - "http://3.95.171.20:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
 ::ffff:103.208.70.65 - - [17/Nov/2020:13:07:47 +0000] "GET / HTTP/1.1" 304 - "http://3.95.171.20:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
 ::ffff:103.208.70.65 - - [17/Nov/2020:13:09:33 +0000] "GET / HTTP/1.1" 304 - "http://3.95.171.20:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+=======
+::1 - - [17/Nov/2020:09:48:35 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/education" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+::1 - - [17/Nov/2020:09:48:37 +0000] "GET /mystory HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+::1 - - [17/Nov/2020:09:48:39 +0000] "GET /contact HTTP/1.1" 304 - "http://localhost:8000/mystory" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+::1 - - [17/Nov/2020:09:48:41 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+::1 - - [17/Nov/2020:11:36:13 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+::1 - - [17/Nov/2020:11:36:15 +0000] "GET /contact HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
+>>>>>>> 63470eb62d88e7424c6daf48d03f3ae1ec409489
+::ffff:103.208.70.65 - - [17/Nov/2020:13:17:02 +0000] "GET / HTTP/1.1" 500 1958 "http://3.95.171.20:8000/contact" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36"
