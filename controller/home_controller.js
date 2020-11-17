@@ -5,7 +5,7 @@ const mail=require('../mailer/mailer');
 
 module.exports.home=async function(req,res)
 {
-    return res.render('_firstpage.ejs')
+    return res.render('_firstPage.ejs')
 }
 
 module.exports.mystory=function(req,res)
