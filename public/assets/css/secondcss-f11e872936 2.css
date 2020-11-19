@@ -1,7 +1,7 @@
 #aboutImage {
   position: absolute;
   left: 30%;
-  top: 32%; }
+  top: 39%; }
 
 #head span::before {
   content: '';
@@ -32,7 +32,7 @@
 #aboutImage {
   position: absolute;
   left: 40%;
-  top: 32%; }
+  top: 39%; }
 
 @media only screen and (max-width: 1000px) {
   video {
